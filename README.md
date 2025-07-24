@@ -17,7 +17,7 @@
 
 **Endpoint:**
 
-`POST /wallet/scan`
+`POST /wallets`
 
 **Description:**
 
