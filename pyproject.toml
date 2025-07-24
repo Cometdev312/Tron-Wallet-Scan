@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "tron-wallet-scan"
+version = "0.1.0"
+description = ""
+authors = ["mbalashovv <isdedtool@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.116.1"
+sqlalchemy = "^2.0.41"
+pytest = "^8.4.1"
+mypy = "^1.17.0"
+ruff = "^0.12.4"
+pydantic = "^2.11.7"
+alembic = "^1.16.4"
+pydantic-settings = "^2.10.1"
+jsf = "^0.11.2"
+psycopg2-binary = "^2.9.10"
+asyncpg = "^0.30.0"
+psycopg = "^3.2.9"
+dependency-injector = "^4.48.1"
+uvicorn = "^0.35.0"
+tronpy = "^0.6.1"
+sqlalchemy-utils = "^0.41.2"
+pytest-asyncio = "^1.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
